@@ -28,26 +28,24 @@ To Configure OpenDNS, signup to the OpenDNS website and choose OpenDNS home serv
 
 Enter the required fields and signup as shown below.
 
-<img src="images/2016/signup-form.png">
+<img src="/images/2016/signup-form.png">
 
 After signing up, verify your email address and your Public IP address.
 Now it's time to add your public IP address to OpenDNS services and filter the traffic as shown below.
 
 **Go to your account and add a Network as shown below.**
-
- <img src="images/2016/addnetwork.png" alt="addnetwork.png">
-
- <img src="images/2016/addnetwork1.png" alt="addnetwork.png">
+<img src="/images/2016/addnetwork.png" alt="addnetwork.png">
+<img src="/images/2016/addnetwork1.png" alt="addnetwork.png">
 
  *open DNS will automatically detect your public IP address*
 
 **Give a name to your filtering rules and click done as shown below.**
 
- <img src="./images/2016/rules.png" alt="fitering rules">
+ <img src="/images/2016/rules.png" alt="fitering rules">
 
 **Apply the filtering rules as shown below and click on apply.**
 
- <img src="./images/2016/rules1" alt="content filtering">
+ <img src="/images/2016/rules1.png" alt="content filtering">
 
  Now, the setting up content filtering has been almost finished, if you would like to filter more categories, you can check other categories as well. It's time to configure your router or a firewall to use this Filtering policy.
 
@@ -59,7 +57,7 @@ Now it's time to add your public IP address to OpenDNS services and filter the t
 
  >DNS Server 2:    208.67.220.220
 
- You can visit the `[link]`(https://use.opendns.com/) to see how to configure the specific routers and operating system(Windows, Linux, Mac) to use OpenDNS service.
+ You can visit the [link](https://use.opendns.com/) to see how to configure the specific routers and operating system(Windows, Linux, Mac) to use OpenDNS service.
 
 So, now it's time to test the configuration. Open your browser and try to visit any social networking site. On visiting social networking sites, you saw that your connection is not private. Voila!, that's it.
 
