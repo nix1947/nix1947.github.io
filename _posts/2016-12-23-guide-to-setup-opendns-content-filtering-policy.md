@@ -33,8 +33,7 @@ Enter the required fields and signup as shown below.
 After signing up, verify your email address and your Public IP address.
 Now it's time to add your public IP address to OpenDNS services and filter the traffic as shown below.
 
-**Go to your account and add a Network as shown below.**
-<img src="/images/2016/addnetwork.png" alt="addnetwork.png">
+**Go to your account and add a Network as shown below.** <img src="/images/2016/addnetwork.png" alt="addnetwork.png">
 <img src="/images/2016/addnetwork1.png" alt="addnetwork.png">
 
  *open DNS will automatically detect your public IP address*
