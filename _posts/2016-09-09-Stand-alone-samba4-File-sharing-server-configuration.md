@@ -1,11 +1,11 @@
 ---
 title: "samba4 server configuration in debian linux"
-date: 2016-09-09 
+date: 2016-12-23 
 description: samba server configuration in debian 8
 categories: samba
 ---
 
-Samba is file and print service, which is used to share files between different platforms such as windows, linux and unix environment. 
+Samba is file and print service, which is used to share files between different platforms such as windows, linux and unix environment.
 In this post, I am going to show you, how to install and configure the *SAMBA* server as a file sharing server.
 First, we will create a different users, which belongs to  different groups, and we will also create a directory Engineering and Administration, such that Administration directory consists of extra three directories named as HR, Logistic, and Finance as shown in the tree structure below.
 
@@ -75,7 +75,7 @@ So, the above series of command will add the Linux user to our Linux Samba syste
 We are done with the user and groups creation, now it is time to install samba server in our  ubuntu server.
 
 {% highlight bash %}
-sudo apt-get upgrade && sudo apt-get install samba 
+sudo apt-get upgrade && sudo apt-get install samba
 {% endhighlight %}
 
 The configuration file of the samba services is located under `/etc/samba/smb.conf`, so we will share our directories,
@@ -118,7 +118,7 @@ Similarly, we can create the permission for other directories as well.
  #only logistic_group can have read, write and excecute permission to Logistic directoy.
  sudo setfacl -Rm g:Logistic_Group:rwx,o:--- Logistic/
  sudo setfacl -Rm d:g:Logistic_Group:rwx,o:--- Logistic/
- 
+
  #only HR_Group can have read, write and execute permission to HR directory.
  sudo setfacl -Rm g:HR_Group:rwx,o:--- Hr/
  sudo setfacl -Rm d:g:HR_Group:rwx,o:--- Hr/
@@ -154,7 +154,7 @@ So, we are done with the permission, now it is time to share the directories. To
         panic action = /usr/share/samba/panic-action %d
         idmap config * : backend = tdb
         wide links = Yes
- 
+
 [Engineering]
         comment = "Share Engineering directory"
         path = /home/Engineering
