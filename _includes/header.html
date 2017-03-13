@@ -1,5 +1,63 @@
-<aside class="logo">
+<style media="screen">
+	.social-parent {
+		list-style: none;
+	}
+	.social-parent li{
+		display: inline-block;
+		margin-right: 15px;
+		padding: 4px 6px;
+	}
 
+	.social-parent li:hover{
+		display: inline-block;
+		margin-right: 15px;
+		color: #FFF;
+		background-color: #666;
+		padding: 4px 6px;
+	}
+	.logo h2{
+		text-align: center;
+		text-transform: uppercase;
+		margin-left: 20px;
+	}
+
+	.logo h2:hover{
+		text-align: center;
+		text-transform: uppercase;
+		margin-left: 20px;
+		color: #2980b9;
+	}
+
+	#title-name{
+		color: #555;
+		cursor: pointer;
+		text-align=center;
+	}
+
+	.title-image{
+		width: 100px;
+		height: auto;
+		border-radius: 50%;
+
+	}
+
+.social-icon{
+	font-size: 180%;
+	cursor: pointer;
+}
+</style>
+<!-- Google analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92360219-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<aside class="logo">
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
 		{% assign prompt = 'About the Author' %}
@@ -8,9 +66,14 @@
 		{% assign prompt = 'Back to Home' %}
 	{% endif %}
 
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/17f/19f/261fed5.jpg" size=80 class="gravatar">
-	</a>
 	<span class="logo-prompt">{{ prompt }}</span>
+		<!-- <img onclick="window.location.href='/'"src="https://avatars3.githubusercontent.com/u/15655524?v=3&s=460" class="title-image" alt=""> -->
+		<h2 id="title-name" onclick="window.location.href='/about'">{{site.author_name}}</h2>
+		<ul class="social-parent">
+			<li><span class="fa social-icon fa-github"  onclick="window.location.href='https://github.com/nix1947'"></span></li>
+			<li><span class="fa social-icon fa-linkedin" onclick="window.location.href="https://linkedin.com/in/manojgautamnepal""></span></li>
+			<li><span class="fa social-icon fa-twitter" onclick="window.location.href="https://twitter.com/nix1947""></span></li>
+			<li><span class="fa social-icon fa-facebook" onclick="window.location.href="https://facebook.com/manojguatamnepal""></span></li>
+		</ul>
 
 </aside>

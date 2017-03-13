@@ -1,20 +1,20 @@
 # Site Info
-title:              "The Plain"
+title:              "Manoj Gautam Blog"
 description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+google_analytics:   UA-92360219-2 # Put your Google Analytics code
 
 # Author Info
-author_name:        "Heiswayi Nrird"
-author_email:       hnrird@gmail.com
-author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
-twitter_username:   HeiswayiNrird
-github_username:    heiswayi # GitHub username
+author_name:        "Manoj Gautam"
+author_email:       manojit.gautam@gmail.com
+author_gravatar:     # Gravatar md5 hash
+twitter_username:   nix1947
+github_username:    nix1947 # GitHub username
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Kathmanndu # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
 highlighter:        rouge

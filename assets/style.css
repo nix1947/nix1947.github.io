@@ -1,0 +1,44 @@
+body {
+  font-size: 110%;
+  color: #333;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+article {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+section {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  text-transform: capitalize;
+  color: #555;
+}
+
+section ul li a{
+  text-transform: capitalize;
+  color: #333;
+  font-size: 105%;
+
+}
+section ul li a:hover,
+section ul li a:active {
+  color: #2980b9;
+  text-transform: capitalize;
+  border-color: white;
+  font-size: 105%;
+}
+
+li {
+  font-size: 15px;
+}
+
+.logo a{
+  
+}
