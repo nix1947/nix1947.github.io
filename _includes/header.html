@@ -32,6 +32,7 @@
 		color: #555;
 		cursor: pointer;
 		text-align=center;
+		text-transform: capitalize;
 	}
 
 	.title-image{
@@ -44,6 +45,27 @@
 .social-icon{
 	font-size: 180%;
 	cursor: pointer;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 9	0%;
+	font-weight: 400;
+	background-color: #000;
+	padding: 5px 40px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 0;
+	margin 0;
+	vertical-align: middle;
+
 }
 </style>
 <!-- Google analytics tracking code -->
@@ -58,12 +80,19 @@
 
 	<span class="logo-prompt">{{ prompt }}</span>
 		<!-- <img onclick="window.location.href='/'"src="https://avatars3.githubusercontent.com/u/15655524?v=3&s=460" class="title-image" alt=""> -->
-		<h2 id="title-name" onclick="window.location.href='/about'">{{site.author_name}}</h2>
+		<h2 id="title-name"  onclick="window.location.href='/about'">{{site.author_name}}</h2>
 		<ul class="social-parent">
-			<li><span class="fa social-icon fa-github"  onclick="window.location.href='https://github.com/nix1947'"></span></li>
+			<li><span class="fa social-icon fa-github-square fa-github"  onclick="window.location.href='https://github.com/nix1947'"></span></li>
 			<li><span class="fa social-icon fa-linkedin" onclick="window.location.href="https://linkedin.com/in/manojgautamnepal""></span></li>
 			<li><span class="fa social-icon fa-twitter" onclick="window.location.href="https://twitter.com/nix1947""></span></li>
 			<li><span class="fa social-icon fa-facebook" onclick="window.location.href="https://facebook.com/manojguatamnepal""></span></li>
+		</ul>
+		<!-- pages -->
+		<ul class="menu">
+			<li onclick="window.location.href='/'">Home</li>
+			<li onclick="window.location.href='/about/'">About</li>
+			<li onclick="window.location.href='/projects/'">Projects</li>
+			<li onclick="window.location.href='{{site.baseurl}}/assets/{{site.cvLink}}'">CV</li>
 		</ul>
 
 </aside>

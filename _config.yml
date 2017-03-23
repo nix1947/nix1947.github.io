@@ -1,6 +1,6 @@
 # Site Info
 title:              "Manoj Gautam Blog"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
+description:        "Python Django developer from nepal having experience on Infrastrucute scaling and devops. CCNA Trainer, RHCE Engineer."
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-92360219-2 # Put your Google Analytics code
 
@@ -10,6 +10,7 @@ author_email:       manojit.gautam@gmail.com
 author_gravatar:     # Gravatar md5 hash
 twitter_username:   nix1947
 github_username:    nix1947 # GitHub username
+cvLink: ManojGautamCV.pdf # drop this cv link in assets directory.
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
