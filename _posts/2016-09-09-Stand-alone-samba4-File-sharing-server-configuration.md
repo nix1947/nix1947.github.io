@@ -1,8 +1,11 @@
 ---
+layout: post
 title: "samba4 server configuration in debian linux"
 date: 2016-12-23 
 description: samba server configuration in debian 8
-categories: samba
+tags: [system-administration]
+comments: true
+
 ---
 
 Samba is file and print service, which is used to share files between different platforms such as windows, linux and unix environment.

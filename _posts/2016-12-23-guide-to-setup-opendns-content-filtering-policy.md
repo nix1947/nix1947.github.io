@@ -1,8 +1,8 @@
 ---
+layout: post
 title: "Guide to setup OpenDNS to filter traffic in small office home office network"
 date: 2016-12-23
 description:
-categories: network
 ---
 
 Network filtering is a technique that you can configure your firewall to control the flow of incoming and outgoing packets based on the source and destination Ip address.

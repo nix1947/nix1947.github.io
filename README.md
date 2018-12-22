@@ -1,17 +1,33 @@
-# The Plain v2.0
+# Minimal Jekyll Theme
 
-**The Plain** - just another white clean minimalist Jekyll theme that focuses on writing matters. Suitable for personal blog use. Made with [Sass](https://github.com/sass/sass) which automates the compression of the compiled CSS code, and cool **Jekyll layout** by [Anatol Broder](http://jch.penibelst.de/) for compressing the HTML code on-the-fly. The typeface used is [Karla](https://fonts.google.com/specimen/Karla?selection.family=Karla) from Google Fonts.
+Minimal Jekyll Theme is a two column, responsive Jekyll theme with large featured images and solid typography.  It is derived from the wonderful work of [Michael Rose](http://mademistakes.com). I loved his Minimal Mistakes theme, and have tried to tune it to my needs.
 
-[**Live Demo**](http://heiswayi.github.io/the-plain/)
+Few of the additions include:
 
-### Screenshot
+* Support for multiple author attribution in a blog. This includes both different authors for various posts, as well as multiple authors per post.
+* Switched to using the gorgeous textures of [Virginie Moerenhout](http://www.flickr.com/photos/yndra)
 
-![Screenshot](http://i.imgur.com/btWdSS0.png)
+![screenshot of Minimal Jekyll Theme](https://raw.githubusercontent.com/arg0s/minimal-jekyll-theme/master/images/theme-post-600.jpg)
 
-### Credits
+## Minimal Jeykll Theme is all about:
 
-This theme is based on Leonard Lamprecht's original [Jekyll theme](https://github.com/leo/leo.github.io).
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
+* Minimal embellishments --- content first.
+* Large feature images for posts and pages.
+* Author sidebar to pimp your bio, photo[^1], and social media links.
+* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
 
-### License
 
-[MIT](LICENSE.md)
+## Basic Setup for a new Jekyll site
+
+1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
+2. Fork the [Minimal Mistakes repo](http://github.com/mmistakes/minimal-mistakes/fork).
+3. Clone the repo you just forked and rename it.
+4. Edit `_config.yml` to personalize your site.
+5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
+
+
+## License
+
+I'm personally a fan of more liberal licenses, but this theme is a derivate of Michael's work, which was distributed under the [GNU General Public License](http://mmistakes.github.io/minimal-mistakes/LICENSE) version 2 or later.

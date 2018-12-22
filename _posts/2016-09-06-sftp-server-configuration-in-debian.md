@@ -1,8 +1,11 @@
 ---
+layout: post
 title: "Sftp server configuration in debian"
 date: 2016-09-6 
 description: sftp configuration
-categories: sftp
+tags: [system-administration]
+comments: true
+
 ---
 SFTP stands for SSH file transfer protocol, It is not the actual FTP server, rather the extension of SSH, which uses SSH tunnel to transfer the files between server and client.
 

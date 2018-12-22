@@ -1,8 +1,10 @@
 ---
+layout: post
 title: Web scraping using python 3.5
 date: 2016-08-02 07:14:14 +0545
 description: python, webscraping 
-categories: python
+tags: [python, webscraping]
+comments: true
 ---
 
 So, you want to harvest other people website(sometimes yours) using python3 when you don't care about API's(Sometimes I also don't). 
@@ -77,7 +79,7 @@ So our target is to grab news title and URL from 'http://nagariknews.com/main-st
 
 So on inspecting the `http://nagariknews.com/main-story` main-news page, we found that news-title are inside the `h1` tag.
 
-<img src="/images/nagariknews.png" alt="Nagariknews.com web inspection" width="130%">
+<img src="../images/nagariknews.png" alt="Nagariknews.com web inspection" width="130%">
 
 we will extract all the h1 tag of this page, and for the next part, we will grab the URL and text content from the children tag `<a>` of these `h1` tag.
 using our parse 'BeautifulSoup'.
@@ -120,6 +122,6 @@ if __name__ == '__main__':
 
 The above code will return the news headline and its corresponding URL in the form of dict. You can use this returned data and do what ever you want. Here, is the final output of your code, that you have written.
 
-<img src="/images/nagarik_output.png" alt="Nagarik news crawler output" width="130%">
+<img src="../images/nagarik_output.png" alt="Nagarik news crawler output" width="130%">
 
 In the second part  we will use the twitter API to tweet these links to twitter.

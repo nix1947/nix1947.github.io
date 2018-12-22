@@ -1,8 +1,11 @@
 ---
+layout: post
 title: Django web app deployment using Gunicorn, Supervisor and nginx
 date: 2017-02-07 03:51:14 +0545
 description: python, Django
-categories: python
+tags: [Python, Django]
+comments: true
+
 ---
 
 ## Django deployment
